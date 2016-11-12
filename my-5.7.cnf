@@ -23,6 +23,8 @@ max_connect_errors = 4294967295
 max_connections = 16
 performance-schema-instrument = 'wait/synch/mutex/innodb/%=ON'
 port = 3306
+query_cache_size = 0
+query_cache_type = 0
 skip-name-resolve
 sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 thread_cache_size = 16
