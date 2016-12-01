@@ -1,4 +1,7 @@
 #
+[mysqld_safe]
+flush_caches = 1
+#
 [mysqld]
 binlog_format = ROW
 character_set_server = utf8mb4
