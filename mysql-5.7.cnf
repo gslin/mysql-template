@@ -14,7 +14,7 @@ innodb_autoinc_lock_mode = 2
 innodb_buffer_pool_dump_at_shutdown = 0
 innodb_buffer_pool_load_at_startup = 0
 innodb_buffer_pool_size = 64M
-innodb_data_file_path = ibdata1:16M;ibdata2:16M:autoextend
+innodb_data_file_path = ibdata1:16M:autoextend:max:128M
 innodb_file_format = Barracuda
 innodb_file_per_table
 innodb_flush_log_at_trx_commit = 2
