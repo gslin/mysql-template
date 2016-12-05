@@ -8,6 +8,7 @@ character_set_server = utf8mb4
 collation_server = utf8mb4_general_ci
 datadir = /var/lib/mysql
 default_storage_engine = InnoDB
+enforce_gtid_consistency = ON
 expire_logs_days = 7
 explicit_defaults_for_timestamp
 gtid_mode = ON
