@@ -1,4 +1,5 @@
 [mysqld]
 wsrep_cluster_name = test-cluster
-wsrep_node_address = "sstuser:s3cretPass"
+wsrep_node_address = 
+wsrep_sst_auth = "sstuser:s3cretPass"
 wsrep_sst_method = xtrabackup-v2
