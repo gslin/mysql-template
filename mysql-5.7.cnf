@@ -26,7 +26,7 @@ log-bin = mysqld-bin
 max_allowed_packet = 4M
 max_connect_errors = 4294967295
 max_connections = 16
-performance-schema-instrument = 'wait/synch/mutex/innodb/%=ON'
+performance-schema = ON
 port = 3306
 query_cache_size = 0
 query_cache_type = 0
