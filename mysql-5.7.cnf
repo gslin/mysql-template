@@ -10,6 +10,8 @@ datadir = /var/lib/mysql
 default_storage_engine = InnoDB
 expire_logs_days = 7
 explicit_defaults_for_timestamp
+gtid_deployment_step = ON
+gtid_mode = ON
 innodb_autoinc_lock_mode = 2
 innodb_buffer_pool_dump_at_shutdown = 0
 innodb_buffer_pool_load_at_startup = 0
