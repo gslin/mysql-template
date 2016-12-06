@@ -2,5 +2,6 @@
 wsrep_cluster_address = gcomm://192.168.1.1,192.168.1.2,192.168.1.3
 wsrep_cluster_name = test-cluster
 wsrep_provider = /usr/lib/libgalera_smm.so
+wsrep_slave_threads = 4
 wsrep_sst_auth = "sstuser:s3cretPass"
 wsrep_sst_method = xtrabackup-v2
