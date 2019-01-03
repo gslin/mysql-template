@@ -23,6 +23,7 @@ innodb_flush_method = O_DIRECT
 innodb_log_file_size = 16M
 innodb_print_all_deadlocks = 1
 log-bin = mysqld-bin
+log-error = /var/log/mysql/mysqld.log
 max_allowed_packet = 4M
 max_connect_errors = 4294967295
 max_connections = 16
