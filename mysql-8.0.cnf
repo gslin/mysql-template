@@ -32,7 +32,7 @@ skip-name-resolve
 sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 sync_binlog = 1
 thread_cache_size = 16
-thread_stack = 128K
+thread_stack = 192K
 tmpdir = /srv/tmp
 transaction_isolation = REPEATABLE-READ
 user = mysql
