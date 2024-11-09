@@ -29,7 +29,7 @@ max_connections = 16
 performance-schema = ON
 port = 3306
 skip-name-resolve
-sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+sql_mode = ANSI_QUOTES,NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 sync_binlog = 1
 thread_cache_size = 16
 thread_stack = 192K
