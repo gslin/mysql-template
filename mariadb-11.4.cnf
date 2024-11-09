@@ -1,0 +1,41 @@
+#
+[mysqld_safe]
+flush_caches = 1
+#
+[mysqld]
+binlog_format = ROW
+character_set_server = utf8mb4
+collation_server = utf8mb4_general_ci
+datadir = /var/lib/mysql
+default_storage_engine = InnoDB
+expire_logs_days = 7
+explicit_defaults_for_timestamp
+innodb_autoinc_lock_mode = 2
+innodb_buffer_pool_dump_at_shutdown = 0
+innodb_buffer_pool_load_at_startup = 0
+innodb_buffer_pool_size = 64M
+innodb_file_per_table
+innodb_flush_log_at_trx_commit = 2
+innodb_flush_method = O_DIRECT
+innodb_log_file_size = 16M
+innodb_print_all_deadlocks = 1
+log-bin = mysqld-bin
+log-error = /var/log/mysql/mysqld.log
+max_allowed_packet = 4M
+max_connect_errors = 4294967295
+max_connections = 16
+performance-schema = ON
+port = 3306
+query_cache_size = 0
+query_cache_type = 0
+skip-name-resolve
+sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+sync_binlog = 1
+thread_cache_size = 16
+thread_stack = 192K
+tmpdir = /srv/tmp
+transaction_isolation = REPEATABLE-READ
+user = mysql
+wait_timeout = 60
+#
+server-id = 1
