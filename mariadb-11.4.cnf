@@ -1,6 +1,7 @@
 #
 [mysqld_safe]
 flush_caches = 1
+malloc-lib = /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
 #
 [mysqld]
 binlog_format = ROW
